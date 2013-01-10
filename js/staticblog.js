@@ -199,7 +199,7 @@
     Index.prototype.load = function(callback) {
       this.callback = callback;
       return $.ajax({
-        url: "_post/index.json",
+        url: "posts/index.json",
         dataType: 'json',
         success: this.on_success
       });
@@ -309,7 +309,7 @@
       this.render.init();
       this.path = location.hash.replace(/^#/, '').replace(/^!/, '');
       return $.ajax({
-        url: "_post/" + this.path + ".md",
+        url: "posts/" + this.path + ".md",
         dataType: 'text',
         success: this.on_success
       });
