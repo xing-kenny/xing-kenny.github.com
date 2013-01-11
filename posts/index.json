@@ -1,8 +1,15 @@
 [
     {
+        "title": "Setting up sublime text 2 for coffee on Windows",
+        "path" : "2012-01-11-setting-up-sublime-text-2-for-coffee-on-Windows",
+        "tags" : ["coffee","sublime text 2"],
+        "date" : "2013-01-11"
+    },
+    {
         "title": "Hello World!",
         "path": "2013-01-10-hello-world",
         "tags": ["hello"],
         "date": "2013-01-10"
     }
+    
 ]
