@@ -165,7 +165,7 @@ li.post-title {
 
 
 /* wraper part */
-#wrapper {
+.wrapper {
     min-height: 600px;
     background-image: url(../icons/ajax-loader.gif);
     background-repeat: no-repeat;
