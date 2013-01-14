@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- 
+ref: Custom Events are Pretty Cool
+[link] http://css-tricks.com/custom-events-are-pretty-cool/
+see ansCustomEv.html
+-->
+<html>
+<head>
+<meta charset=utf-8>
+<title>_</title>
+<script class="jsbin" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+$.fn.faq = function(options) {
+    
+  return this.each(function(i, el) {
+  var base = el,
+    $base = $(el);
+
+    console.log(options);
+    
+    base.init = function() {
+      // Do initialization stuff
+      $base
+         .find("dd")
+         .hide()
+         .end()
+         .find("dt")
+         .click(function() {
+           
+           var ans = $(this).next();
+           
+           if (ans.is(":visible")) {
+             base.closeQ(ans); 
+           } else {
+             base.openQ(ans); 
+           }
+           
+         })
+    };
+    
+    base.openQ = function(ans) {
+      // Open panel
+      ans.show();
+    
+      // Do callback
+      options.qOpen.call();
+    };
+    
+    base.closeQ = function(ans) {
+      // Open panel
+      ans.hide();
+    
+      // Do callback
+      options.qClose.call();
+    };
+    
+    base.init();
+         
+  });
+  
+};
+
+function myQuestionOpenCallback() {
+  alert("answer opened!");
+}
+
+function myQuestionCloseCallback() {
+  alert("answer closed!");
+}
+
+$(document).ready(function(){
+  $("dl").faq({
+    qOpen: myQuestionOpenCallback,
+    qClose: myQuestionCloseCallback
+  });
+
+});
+
+</script>
+<style>
+  dt { cursor: pointer; }
+</style>
+</head>
+<body>
+  <h1>Click questions to see answers.</h1>
+  <dl>
+    <dt>Example Question #1</dt>
+    <dd>Answer #1</dd>
+  </dl>
+</body>
+</html>
