@@ -16,7 +16,7 @@ with
 
 save as "Sublime Text 2\Data\Packages\CoffeeScript\CoffeeScript.sublime-build"
 
-###note: CoffeeScript.sublime-build && CoffeeScript.tmLanguage need save to same folder. 
+### note: CoffeeScript.sublime-build && CoffeeScript.tmLanguage need save to same folder. 
 
 ## 4.  test
 * select Build System , Tools -> Build System -> CoffeeScript

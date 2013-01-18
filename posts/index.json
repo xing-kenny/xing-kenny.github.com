@@ -1,5 +1,11 @@
 [
     {
+        "title": "jQuery.on() at v2.0.0pre",
+        "path" : "2013-01-17-jQuery.on()",
+        "tags" : ["jQuery","event"],
+        "date" : "2013-01-17"
+    },
+    {
         "title": "Custom Events are Pretty Cool",
         "path" : "2013-01-14-Custom-Events-are-Pretty-Cool",
         "tags" : ["Custom Events","jQuery"],
