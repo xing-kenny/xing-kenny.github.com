@@ -1,4 +1,4 @@
-<h2><font size="16" color="blue">add plug-ins for eclipse by links</font></h2>
+<h2><font size="16" color="blue">add plug-ins for eclipse by links...</font></h2>
 
 create folder 'links' and 'myplugins' under the eclipse exe dir.    
 create folder 'emf' under the 'myplugins' folder.    
