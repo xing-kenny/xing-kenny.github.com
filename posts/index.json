@@ -1,5 +1,11 @@
 [
     {
+        "title": "install Redis-2.8.6 on CentOS5",
+        "path": "2014-02-28-memo-to-redis.md",
+        "tags": ["redis service on CentOS5"],
+        "date": "2014-03-03"
+    },
+    {
         "title": "Apache Tomcat 7 :: JNDI Datasource HOW-TO :: MySQL DBCP Example",
         "path": "2014-02-12-Tomcat7-JNDI",
         "tags": ["Tomcat 7 JNDI"],
