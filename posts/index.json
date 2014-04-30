@@ -1,5 +1,11 @@
 [
     {
+        "title": "About proguard",
+        "path": "posts/2014-04-30-about-proguard.md",
+        "tags": ["proguard","ApkTool"],
+        "date": "2014-04-30"
+    },
+    {
         "title": "install Redis-2.8.6 on CentOS5",
         "path": "2014-02-28-memo-to-redis.md",
         "tags": ["redis service on CentOS5"],
