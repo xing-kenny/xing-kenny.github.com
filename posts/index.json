@@ -1,5 +1,11 @@
 [
     {
+        "title": "html microdata",
+        "path": "posts/2015-11-24-html-microdata.md",
+        "tags": ["microdata"],
+        "date": "2015-11-24"
+    },
+    {
         "title": "About proguard",
         "path": "posts/2014-04-30-about-proguard.md",
         "tags": ["proguard","ApkTool"],
