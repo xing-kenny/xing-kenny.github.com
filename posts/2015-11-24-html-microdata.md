@@ -2,9 +2,9 @@
 HTML Microdata
 ===================
 
-see [more][1]
-see [more][2]
-see [more][3]
+see [HTML5 之微数据][1]
+see [HTML5扩展与网站SEO之微数据与丰富网页摘要][2]
+see [针对SEO优化的网页摘要和结构化数据方法(微数据)][3]
 
 ----------
 
